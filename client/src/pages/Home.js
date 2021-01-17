@@ -1,6 +1,6 @@
 import React from "react";
 
-function About() {
+function Home() {
   return (
     <div>
       <img src="../public/assets/images/profile-pic-bw.jpg"/>
@@ -9,4 +9,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;
