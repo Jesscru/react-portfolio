@@ -1,3 +1,7 @@
+.col-lg-4 {
+    padding: 0;
+}
+
 .header {
     color: rgb(193, 193, 193);
     text-align: center;
@@ -5,16 +9,21 @@
 }
 .profile-pic {
     height: auto;
-    margin: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
     display: block;
-    width: 50%
+    margin: 100px 60px 70px 20px;
+    width: 70%;
+}
+
+div#pic-div {
+    float: right;
 }
 
 .about-me-text {
-    color: whitesmoke;
-    margin: 1.5rem auto 5rem;
+    color:  rgb(193, 193, 193);
     text-align: center;
+    letter-spacing: 2px;
+    float: right;
+    margin-bottom: 60px;
+    line-height: 2;
+    font-weight: 200;
 }
