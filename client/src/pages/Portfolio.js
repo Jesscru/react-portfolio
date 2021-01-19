@@ -23,23 +23,23 @@ function Portfolio() {
 
               <div className="row">
                 <div className="col-xl-6">
-                  <a href="https://jesscru.github.io/weather-dashboard/" target="_blank" rel="noreferrer"><img className="portfolio-image" src={WeatherDashboard} alt="screenshot of weather dashboard with populated data of Tokyo"></img></a>
-                  <a href="https://github.com/Jesscru/weather-dashboard" className="repo-link" target="_blank"><p className="project-title">Weather Dashboard repository</p></a>                        
+                  <a href="https://jesscru.github.io/weather-dashboard/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={WeatherDashboard} alt="screenshot of weather dashboard with populated data of Tokyo"></img></a>
+                  <a href="https://github.com/Jesscru/weather-dashboard" className="repo-link" target="_blank" rel="noopener noreferrer"><p className="project-title">Weather Dashboard repository</p></a>                        
                 </div>
                 <div className="col-xl-6">
-                  <a href="https://github.com/Jesscru/portfolio" target="_blank" rel="noreferrer"><img className="portfolio-image" src={IceBox} alt="sceenshot of Icebox App landing page"></img></a>
-                  <a href="https://infinite-castle-57105.herokuapp.com/" className="repo-link" target="_blank"><p className="project-title">IceBox repository</p></a>
+                  <a href="https://github.com/Jesscru/portfolio" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={IceBox} alt="sceenshot of Icebox App landing page"></img></a>
+                  <a href="https://infinite-castle-57105.herokuapp.com/" className="repo-link" target="_blank" rel="noopener noreferrer"><p className="project-title">IceBox repository</p></a>
                 </div>
               </div>
 
               <div className="row">
                 <div className="col-xl-6">
-                  <a href="https://candygarcia014.github.io/search-and-rescue/" target="_blank" rel="noreferrer"><img className="portfolio-image" src={SearchAndRescue} alt="screenshot of homepage of Search and Rescue App"></img></a>
-                  <a href="https://github.com/candygarcia014/search-and-rescue" className="repo-link" target="_blank"><p className="project-title">Search and Rescue repository</p></a>
+                  <a href="https://candygarcia014.github.io/search-and-rescue/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={SearchAndRescue} alt="screenshot of homepage of Search and Rescue App"></img></a>
+                  <a href="https://github.com/candygarcia014/search-and-rescue" className="repo-link" target="_blank" rel="noopener noreferrer"><p className="project-title">Search and Rescue repository</p></a>
                 </div>
                 <div className="col-xl-6">
-                  <a href="https://jesscru.github.io/coding-quiz/" target="_blank" rel="noreferrer"><img className="portfolio-image" src={CodeQuiz} alt="screenshot of homepage of U.S facts quiz"></img></a>
-                  <a href="https://github.com/Jesscru/coding-quiz" className="repo-link" target="_blank"><p className="project-title">U.S Facts Quiz repository</p></a>
+                  <a href="https://jesscru.github.io/coding-quiz/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={CodeQuiz} alt="screenshot of homepage of U.S facts quiz"></img></a>
+                  <a href="https://github.com/Jesscru/coding-quiz" className="repo-link" target="_blank" rel="noopener noreferrer"><p className="project-title">U.S Facts Quiz repository</p></a>
                 </div>
               </div>
 

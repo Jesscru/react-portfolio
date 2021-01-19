@@ -1,0 +1,26 @@
+.col-sm-6
+.row  {
+    height: 50%;
+} 
+
+.contact-icon {
+    background-color: rgb(193, 193, 193);
+    border-radius: 1.45rem;
+    cursor: pointer;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.social {
+    margin-top: 110px;
+}
+
+.linkedin, 
+.download {
+    margin-bottom: 80px;
+}
+
+#download-icon {
+    margin-top: -40px;
+}
