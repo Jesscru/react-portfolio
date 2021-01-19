@@ -1,0 +1,41 @@
+/* .wrapper { */
+
+
+#skill-list, 
+#education-list,
+#experience-list {
+  height: 290px;  
+  width: 720px;
+  background-color: rgb(193, 193, 193);
+  border-radius: 1.45rem;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 40px;
+  list-style-type: none;
+  color: black;
+  text-align: center;
+  line-height: 3;
+  margin-top: 20px;
+}
+
+/* .text-area { */
+.skills, 
+.education, 
+.experience {
+  color: rgb(193, 193, 193);
+  font-weight: 400;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* .container.show .text-area {
+  display: block;
+} */
+
+/* .education-container.show .education {
+    display: block;
+  }
+
+.experience-container.show .experience {
+    display: block;
+} */
