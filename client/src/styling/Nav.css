@@ -1,6 +1,6 @@
 .nav-bar {
     display: inline-block;
-    width: 100%;
+    width: 80%;
     padding: 0;
 }
 
@@ -20,7 +20,7 @@ li,
     display: block;
     letter-spacing: 7px;
     font-weight: 400;
-    padding-bottom: 20px;
+    padding: 0 0 20px 0;
 }
 
 a:hover, 

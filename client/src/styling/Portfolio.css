@@ -1,0 +1,54 @@
+.col-xl-4 {
+    width: 30%;
+    padding: 0;
+}
+
+.col-xl-6 {
+    padding-left: 35px;
+}
+
+.project-display {
+    padding: 0;
+    margin-top: 120px;
+}
+
+#instructions {
+    color: rgb(120, 120, 120);
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.portfolio-image {
+    margin-left: 1rem;
+    width: 375px;
+    height: 263px;
+    display: block;
+    filter: grayscale(100%);
+}
+
+.portfolio-image:hover {
+    filter: none;
+}
+
+.repo-link {
+    color: rgb(120, 120, 120);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.repo-link:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.project-title {
+    margin-left: 40px
+}
+
+.low-row {
+    margin-bottom: 5rem;
+}

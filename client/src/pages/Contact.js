@@ -1,11 +1,11 @@
 import React from "react";
-import Nav from "../components/Nav";
+import ContactNav from "../components/ContactNav";
 
 
 function Contact() {
   return (
     <div >
-     <Nav />
+     <ContactNav />
     </div>
   );
 }

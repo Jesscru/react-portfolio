@@ -34,7 +34,6 @@ function Home() {
                 quite a challenge. However, I truly love pushing myself outside my comfort zone and 
                 learning new skills. Thus, I have no regrets and I cannot wait to explore this new world. </p>
               </div>
-              {/* <div className="col-lg-1"></div> */}
             </div>
           </div>
         </div>

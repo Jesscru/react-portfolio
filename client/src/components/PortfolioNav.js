@@ -4,7 +4,7 @@ import "../styling/Nav.css";
 
 
 
-function Nav(){
+function PortfolioNav(){
     return (
         <div className="nav-bar">
             <Link to={"/"}>
@@ -14,18 +14,15 @@ function Nav(){
                 <Link to={"/"}>
                     <li>HOME</li>
                 </Link>
-                <Link to={"/about"}>
-                    <li>ABOUT</li>
-                </Link>
-                <Link to={"/portfolio"}>
-                    <li>PORTFOLIO</li>
-                </Link>
                 <Link to={"/resume"}>
                     <li>RESUME</li>
+                </Link>
+                <Link to={"/contact"}>
+                    <li>CONTACT</li>
                 </Link>
             </ul>
         </div>
     );
 }
 
-export default Nav;
+export default PortfolioNav;

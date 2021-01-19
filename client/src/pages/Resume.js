@@ -1,11 +1,11 @@
 import React from "react";
-import Nav from "../components/Nav";
+import ResumeNav from "../components/ResumeNav";
 
 
 function Resume() {
   return (
     <div >
-     <Nav />
+     <ResumeNav />
     </div>
   );
 }
