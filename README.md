@@ -16,7 +16,7 @@ One can access the project via this link: https://immense-lake-19917.herokuapp.c
 
 ## Usage 
 
-This portfolio serves to compile and showcase my professional abilities. It is a place to learn a bit about me, view some of my strengths, and contact me in a number of places. It is kept up to do date with my latest work as learn more and grow! 
+This portfolio serves as a place to compile and showcase my professional abilities as well as my creativity and eye for simple, yet elegant design. It is a place to learn a bit about me, view some of my strengths--both with react and web developement and professionally, and contact me in a number of places. It is kept up to do date with my latest work as I learn more and grow! Please feel free to reach out. 
 
 <!-- The landing page of the site is as seen below:
 
