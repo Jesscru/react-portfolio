@@ -40,8 +40,8 @@ The contact page appears as below:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Icons used on the Contact page were found on [IconFinder](https://www.iconfinder.com) 
-    * The designer for the social icons: [Alexei Ryazancev](https://www.iconfinder.com/GlumPix)
-    * The designer for the download icons: [Stefan Taubert](https://www.iconfinder.com/stefantaubert)
+      * The designer for the social icons: [Alexei Ryazancev](https://www.iconfinder.com/GlumPix)
+      * The designer for the download icons: [Stefan Taubert](https://www.iconfinder.com/stefantaubert)
 
 ## License
 
