@@ -11,7 +11,7 @@
 
 ## Installation
 
-One can access the project via this link: 
+One can access the project via this link: https://immense-lake-19917.herokuapp.com/
 
 ## Usage 
 
