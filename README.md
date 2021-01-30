@@ -24,7 +24,7 @@ The landing page of the site is as seen below:
 
 The resume page appears as below:
 
-![resume page screenshot](./src/assets/images/Resume-screenshot.png"
+![resume page screenshot](./src/assets/images/Resume-screenshot.png)
 
 The portfolio page appears as below:
 
