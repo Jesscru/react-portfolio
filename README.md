@@ -20,19 +20,19 @@ This portfolio serves as a place to compile and showcase my professional abiliti
 
 The landing page of the site is as seen below:
 
-![landing page screenshot](https://github.com/jesscru/react-portfolio/blob/master/home-screenshot.png?raw=true)
+![landing page screenshot](./src/assets/images/home-screenshot.png)
 
 The resume page appears as below:
 
-![resume page screenshot]("./public/assets/images/Resume-screenshot.png")
+![resume page screenshot](./src/assets/images/Resume-screenshot.png"
 
 The portfolio page appears as below:
 
-![portfolio page screenshot]("./public/assets/images/portfolio-screenshot.png")
+![portfolio page screenshot](./src/assets/images/portfolio-screenshot.png)
 
 The contact page appears as below:
 
-![contact page screenshot]("./public/assets/images/contact-screeshot.png")
+![contact page screenshot](./src/assets/images/contact-screeshot.png)
 
 
 ## Credits
