@@ -4,7 +4,7 @@
 #skill-list, 
 #education-list,
 #experience-list {
-  height: 290px;  
+  height: auto;  
   width: 720px;
   background-color: rgb(193, 193, 193);
   border-radius: 1.45rem;

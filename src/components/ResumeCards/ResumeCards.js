@@ -1,5 +1,5 @@
 import React from "react";
-import "../styling/ResumeCard.css";
+import "./ResumeCards.css";
 
 // class ResumeCard extends Component {
 //     state = {
@@ -20,7 +20,7 @@ const resumeInfo = {
     workExperience: {
         'Peace Corps': 'Taught English as a second language to Ecuadorian high school students',
         'Restaurant manager': 'Trained numerous employees, delegated work duties, counted and balanced cash register',
-        'U of Miss Tutor': 'Provided Spanish help and practice to university students'
+        'U of Miss Tutor': 'Taught basic Spanish to university students'
     }, 
 
     leadershipOther: {
@@ -30,12 +30,22 @@ const resumeInfo = {
     }, 
 
     education: {
-        university: 'University of Mississippi', 
-        years: 'August 2015-May 2019',
-        major: 'B.A. Psychology', 
-        minors: 'Spanish, chemistry, biology',
-        GPA: 3.74
+        college: {
+            university: 'University of Mississippi', 
+            years: 'August 2015 - May 2019',
+            major: 'B.A. Psychology', 
+            minors: 'Spanish, chemistry, biology',
+            GPA: 3.74
+        }, 
+
+        coding: {
+            university: "UCLA Coding Bootcamp", 
+            years: 'October 2020 - January 2021',
+            major: 'Web development', 
+            GPA: 'A'
+        }
     }
+
 };
     
 
@@ -54,21 +64,28 @@ function ResumeCards() {
             
             <div className="education"> Education
                 <ul id="education-list">
-                    <li>{resumeInfo.education.university}</li>
-                    <li>{resumeInfo.education.years}</li>
-                    <li>{resumeInfo.education.major}</li>
-                    <li>{resumeInfo.education.minors}</li>
-                    <li>{resumeInfo.education.GPA}</li>
+                    <li>{resumeInfo.education.college.university}</li>
+                    <li>{resumeInfo.education.college.years}</li>
+                    <li>Major: {resumeInfo.education.college.major}</li>
+                    <li>Minors: {resumeInfo.education.college.minors}</li>
+                    <li>GPA: {resumeInfo.education.college.GPA}</li>
+                </ul>
+
+                <ul id="education-list">
+                    <li>{resumeInfo.education.coding.university}</li>
+                    <li>{resumeInfo.education.coding.years}</li>
+                    <li>Major: {resumeInfo.education.coding.major}</li>
+                    <li>GPA: {resumeInfo.education.coding.GPA}</li>
                 </ul>
             </div>
 
 
             <div className="experience"> Experience
                 <ul id="experience-list">
-                    <li>{resumeInfo.workExperience["Peace Corps"]}</li>
-                    <li>{resumeInfo.workExperience["Reasearch assistant"]}</li>
-                    <li>{resumeInfo.workExperience["Restaurant manager"]}</li>
-                    <li>{resumeInfo.workExperience["U of Miss Tutor"]}</li>
+                    <li>Peace Corps: {resumeInfo.workExperience["Peace Corps"]}</li>
+                    <li>Research Assitant: {resumeInfo.workExperience["Reasearch assistant"]}</li>
+                    <li>Restaurant manager: {resumeInfo.workExperience["Restaurant manager"]}</li>
+                    <li>U of Miss Tutor: {resumeInfo.workExperience["U of Miss Tutor"]}</li>
                 </ul>
             </div>
 

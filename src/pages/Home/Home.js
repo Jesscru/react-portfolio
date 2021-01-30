@@ -1,7 +1,7 @@
 import React from "react";
-import ProfilePic from "../assets/images/profile-pic-bw.jpg"
-import HomeNav from "../components/HomeNav";
-import "../styling/Home.css";
+import ProfilePic from "../../assets/images/profile-pic-bw.jpg"
+import HomeNav from "../../components/Nav/HomeNav";
+import "./Home.css";
 
 function Home() {
   return (

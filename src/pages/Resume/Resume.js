@@ -1,6 +1,6 @@
 import React from "react";
-import ResumeNav from "../components/ResumeNav";
-import ResumeCards from "../components/ResumeCards";
+import ResumeNav from "../../components/Nav/ResumeNav";
+import ResumeCards from "../../components/ResumeCards/ResumeCards";
 
 
 function Resume() {

@@ -1,11 +1,11 @@
 import React from "react";
-import "./styling/App.css";
+import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
-import Home from "./pages/Home";
+import Contact from "./pages/Contact/Contact";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Resume from "./pages/Resume/Resume";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (

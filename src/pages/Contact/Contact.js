@@ -1,11 +1,11 @@
 import React from "react";
-import ContactNav from "../components/ContactNav";
-import MailIcon from "../assets/images/mail-icon-border-256px.png";
-import DownloadIcon from "../assets/images/download-icon-256px.png";
-import GithubIcon from "../assets/images/github-icon-256px.png";
-import LinkedInIcon from "../assets/images/linked-in-icon-256px.png";
-import ResumeDoc from "../assets/JCrump_webdev.pdf";
-import "../styling/Contact.css";
+import ContactNav from "../../components/Nav/ContactNav";
+import MailIcon from "../../assets/images/mail-icon-border-256px.png";
+import DownloadIcon from "../../assets/images/download-icon-256px.png";
+import GithubIcon from "../../assets/images/github-icon-256px.png";
+import LinkedInIcon from "../../assets/images/linked-in-icon-256px.png";
+import ResumeDoc from "../../assets/JCrump_webdev.pdf";
+import "./Contact.css";
 
 
 

@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styling/Nav.css";
+import "./Nav.css";
 
 
 
-function PortfolioNav(){
+function ContactNav(){
     return (
         <div className="nav-bar">
             <Link to={"/"}>
@@ -14,15 +14,15 @@ function PortfolioNav(){
                 <Link to={"/"}>
                     <li>HOME</li>
                 </Link>
+                <Link to={"/portfolio"}>
+                    <li>PORTFOLIO</li>
+                </Link>
                 <Link to={"/resume"}>
                     <li>RESUME</li>
-                </Link>
-                <Link to={"/contact"}>
-                    <li>CONTACT</li>
                 </Link>
             </ul>
         </div>
     );
 }
 
-export default PortfolioNav;
+export default ContactNav;
