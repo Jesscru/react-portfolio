@@ -5,6 +5,7 @@ import IceBox from "../../assets/images/icebox-screenshot.png";
 import SearchAndRescue from "../../assets/images/search-and-rescue.png";
 import CodeQuiz from "../../assets/images/coding-quiz-homepage.png";
 import Landpad from "../../assets/images/landpad-landing.png"
+import EmpDir from "../../assets/images/emp-dir-landing.png"
 import "./Portfolio.css"
 
 
@@ -50,9 +51,8 @@ function Portfolio() {
                   <a href="https://github.com/candygarcia014/search-and-rescue" className="repo-link" target="_blank" rel="noopener noreferrer"><p className="project-title">Search and Rescue repository</p></a>
                 </div>
                 <div className="col-xl-6">
-                  {/* change to deployed link when done and add screenshot*/}
-                  {/* <a href="https://jesscru.github.io/portfolio/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={CodeQuiz} alt="screenshot of homepage of U.S facts quiz"></img></a>
-                  <a href="https://github.com/Jesscru/portfolio" className="repo-link" target="_blank" rel="noopener noreferrer"><p className="project-title">U.S Facts Quiz repository</p></a> */}
+                  <a href="https://jesscru.github.io/employee-directory/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={EmpDir} alt="screenshot employee directory pagez"></img></a>
+                  <a href="https://github.com/Jesscru/employee-directory" className="repo-link" target="_blank" rel="noopener noreferrer"><p className="project-title">Employee Directory repository</p></a>
                 </div>
               </div>
 
