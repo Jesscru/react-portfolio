@@ -20,15 +20,15 @@ This portfolio serves as a place to compile and showcase my professional abiliti
 
 The landing page of the site is as seen below:
 
-![landing page screenshot]("./src/assets/images/home-screenshot")
+![landing page screenshot]("./src/assets/images/home-screenshot.png")
 
 The resume page appears as below:
 
-![resume page screenshot]("./src/assets/images/Resume-screenshot")
+![resume page screenshot]("./src/assets/images/Resume-screenshot.png")
 
 The portfolio page appears as below:
 
-![portfolio page screenshot]("./src/assets/images/portfolio-screenshot")
+![portfolio page screenshot]("./src/assets/images/portfolio-screenshot.png")
 
 The contact page appears as below:
 
