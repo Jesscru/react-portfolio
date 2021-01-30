@@ -18,21 +18,21 @@ One can access the project via this link: https://immense-lake-19917.herokuapp.c
 
 This portfolio serves as a place to compile and showcase my professional abilities as well as my creativity and eye for simple, yet elegant design. It is a place to learn a bit about me, view some of my strengths--both with react and web developement and professionally, and contact me in a number of places. It is kept up to do date with my latest work as I learn more and grow! Please feel free to reach out. 
 
-<!-- The landing page of the site is as seen below:
+The landing page of the site is as seen below:
 
-![landing page screenshot]("src/assets/images/home-screenshot")
+![landing page screenshot]("./src/assets/images/home-screenshot")
 
 The resume page appears as below:
 
-![resume page screenshot]("src/assets/images/Resume-screenshot")
+![resume page screenshot]("./src/assets/images/Resume-screenshot")
 
 The portfolio page appears as below:
 
-![portfolio page screenshot]("src/assets/images/portfolio-screenshot")
+![portfolio page screenshot]("./src/assets/images/portfolio-screenshot")
 
 The contact page appears as below:
 
-![contact page screenshot]("src/assets/images/contact-screeshot.png") -->
+![contact page screenshot]("./src/assets/images/contact-screeshot.png")
 
 
 ## Credits
@@ -45,7 +45,7 @@ Icons used on the Contact page were found on [IconFinder](https://www.iconfinder
 
 ## License
 
-This is project has an MIT license. 
+This project has an MIT license. 
 
 ## Contributing
 
