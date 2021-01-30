@@ -74,8 +74,8 @@ function ResumeCards() {
                 <ul id="education-list">
                     <li>{resumeInfo.education.coding.university}</li>
                     <li>{resumeInfo.education.coding.years}</li>
-                    <li>Major: {resumeInfo.education.coding.major}</li>
-                    <li>GPA: {resumeInfo.education.coding.GPA}</li>
+                    <li>{resumeInfo.education.coding.major}</li>
+                    <li>Final Grade: {resumeInfo.education.coding.GPA}</li>
                 </ul>
             </div>
 
