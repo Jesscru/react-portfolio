@@ -36,8 +36,8 @@ function Portfolio() {
 
               <div className="row">
               <div className="col-xl-6">
-                  <a href="https://mysterious-beyond-10068.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={Landpad} alt="screenshot of homepage of Search and Rescue App"></img></a>
-                  <a href="https://github.com/mfitzwinick/landpad" className="repo-link" target="_blank" rel="noopener noreferrer"><p className="project-title">LAND PAD Repository</p></a>
+                  <a href="https://mysterious-beyond-10068.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={Landpad} alt="screenshot of login page of LAND PAD"></img></a>
+                  <a href="https://github.com/mfitzwinick/landpad" className="repo-link" target="_blank" rel="noopener noreferrer"><p className="project-title">LAND PAD repository</p></a>
                 </div>
                 <div className="col-xl-6">
                   <a href="https://jesscru.github.io/coding-quiz/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={CodeQuiz} alt="screenshot of homepage of U.S facts quiz"></img></a>
@@ -51,7 +51,7 @@ function Portfolio() {
                   <a href="https://github.com/candygarcia014/search-and-rescue" className="repo-link" target="_blank" rel="noopener noreferrer"><p className="project-title">Search and Rescue repository</p></a>
                 </div>
                 <div className="col-xl-6">
-                  <a href="https://jesscru.github.io/employee-directory/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={EmpDir} alt="screenshot employee directory pagez"></img></a>
+                  <a href="https://jesscru.github.io/employee-directory/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={EmpDir} alt="screenshot employee directory page"></img></a>
                   <a href="https://github.com/Jesscru/employee-directory" className="repo-link" target="_blank" rel="noopener noreferrer"><p className="project-title">Employee Directory repository</p></a>
                 </div>
               </div>

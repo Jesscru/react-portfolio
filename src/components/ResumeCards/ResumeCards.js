@@ -63,19 +63,20 @@ function ResumeCards() {
             </div>
             
             <div className="education"> Education
-                <ul id="education-list">
-                    <li>{resumeInfo.education.college.university}</li>
-                    <li>{resumeInfo.education.college.years}</li>
-                    <li>Major: {resumeInfo.education.college.major}</li>
-                    <li>Minors: {resumeInfo.education.college.minors}</li>
-                    <li>GPA: {resumeInfo.education.college.GPA}</li>
-                </ul>
 
                 <ul id="education-list">
                     <li>{resumeInfo.education.coding.university}</li>
                     <li>{resumeInfo.education.coding.years}</li>
                     <li>{resumeInfo.education.coding.major}</li>
                     <li>Final Grade: {resumeInfo.education.coding.GPA}</li>
+                </ul>
+
+                <ul id="education-list">
+                    <li>{resumeInfo.education.college.university}</li>
+                    <li>{resumeInfo.education.college.years}</li>
+                    <li>Major: {resumeInfo.education.college.major}</li>
+                    <li>Minors: {resumeInfo.education.college.minors}</li>
+                    <li>GPA: {resumeInfo.education.college.GPA}</li>
                 </ul>
             </div>
 
