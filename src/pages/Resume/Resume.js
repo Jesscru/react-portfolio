@@ -1,6 +1,6 @@
 import React from "react";
 import ResumeNav from "../../components/Nav/ResumeNav";
-import ResumeCards from "../../components/ResumeCards/ResumeCards";
+import ResumeInfo from "../../components/ResumeInfo/ResumeInfo";
 
 
 function Resume() {
@@ -13,7 +13,7 @@ function Resume() {
           </div>
 
           <div className="col-lg-8">
-            <ResumeCards />
+            <ResumeInfo className="resume-display"/>
           </div>
         </div>
       </div>

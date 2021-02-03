@@ -1,0 +1,19 @@
+.category {
+    color: rgb(193, 193, 193);
+    display: flex;
+}
+
+.cat-btn {
+    background-color: rgba(193, 193, 193, 0.322);
+    border-radius: 30px 5px 30px 5px;
+    height: fit-content;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    margin: 120px 20px 20px;
+}
+
+.cat-btn:hover {
+    color: whitesmoke;
+    background-color: rgba(193, 193, 193, 0.521);
+}

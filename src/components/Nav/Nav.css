@@ -23,11 +23,16 @@ a,
 }
 
 a:hover, 
-.nav-links:hover
-.brand:hover {
+.nav-links:hover {
     color: whitesmoke;
     text-decoration: none;
     font-weight: 400;
+}
+
+.brand:hover {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 ul, 

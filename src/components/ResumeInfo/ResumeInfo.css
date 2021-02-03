@@ -1,0 +1,34 @@
+.resume-data {
+    list-style-type: none;
+    line-height: 3;
+    margin: 20px;
+    color: rgb(193, 193, 193);
+    width: 100%;
+}
+
+.long-list {
+    margin-top: 25px;
+}
+
+#languages,
+#languages2 {
+    width: 10%;
+    margin-right: 80px;
+}
+
+#skills {
+    width: 50%;
+}
+
+.short-list {
+    display: inline-block;
+    text-align: center;
+}
+
+#experience {
+    font-size: 14px;
+}
+
+#leadership {
+    font-size: 12px;
+}

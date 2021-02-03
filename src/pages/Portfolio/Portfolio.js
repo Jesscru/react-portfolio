@@ -57,6 +57,7 @@ function Portfolio() {
                 <p className="description">This project is a provides a database of adoptable animals in one's area. The user can input their locale and search for an animal to adopt in their area. Also if the user would like more information on a dog breed before adopting, they may use the "Learn about a Breed" section to get information such as temperament, size, and lifespan. HTML, CSS, Javascript were the tools used to buiild the app.</p>
                 <a href="https://github.com/candygarcia014/search-and-rescue" className="repo-link" rel="noreferrer" target="_blank">View the Search and Rescue repository here</a>
               </div>
+              
             </div>
           </div>
         </div>
