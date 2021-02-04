@@ -3,13 +3,25 @@
     height: 50%;
 } 
 
+.smaller {
+    width: 60%;
+}
+
+.reach-out {
+    height: fit-content;
+    margin: 60px 0 0;
+    text-align: center;
+    color: rgb(151, 148, 148);
+}
+
 .contact-icon {
     background-color: rgb(193, 193, 193);
     border-radius: 1.45rem;
     cursor: pointer;
     padding: 20px;
-    margin-left: 20px;
-    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 256px;
+    height: auto;
 }
 
 .social {
@@ -22,5 +34,5 @@
 }
 
 #download-icon {
-    margin-top: -40px;
+    margin-top: -80px;
 }

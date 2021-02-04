@@ -18,6 +18,12 @@ function Contact() {
               <ContactNav />
           </div>
           
+        <div className="row smaller">
+          <div className="col-sm-12">
+            <p className="reach-out">Please feel free to reach me by email, visit my Github and/or LinkedIn pages, and download my resume below.</p>
+          </div>
+        
+
           <div className="social">
               <div className="col-sm-6 email">
                 <a href="mailto:jessicacrump7@gmail.com" target="_blank" rel="noreferrer"><img className="contact-icon" src={MailIcon} alt="envelope icon"></img></a>
@@ -35,7 +41,7 @@ function Contact() {
                 <a download="jessica_crump_resume" href={ResumeDoc} target="_blank" rel="noreferrer"><img id="download-icon" className="contact-icon" src={DownloadIcon} alt="arrow pointing into a box to signify download"></img></a>
               </div>
           </div>
-
+        </div>
     
         </div>
       </div>
