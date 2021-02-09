@@ -1,19 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ResumeBtns from "../../components/ResumeBtns/ResumeBtns";
 import "./ResumeInfo.css";
 
 
 function ResumeInfo() { 
-    const [isVisible, setIsVisible] = useState(true);
+    // const [isVisible, setIsVisible] = useState(true);
 
-    useEffect(() => {
-        setIsVisible(true);
-    }, []);
+    // useEffect(() => {
+    //     setIsVisible(true);
+    // }, []);
 
 
     const resumeData = [{
         languages: ["SPANISH", "HTML", "CSS", "JAVASCRIPT", "REACT.JS", "NODE.JS", "MONOGODB", "MYSQL", "EXPRESS"], 
-        skills: ["PROLEM SOLVER", "QUICK LEARNER", "WORKS WELL UNDER PRESSURE", "TEACHABLE", "STRONG PUBLIC SPEAKER"], 
+        value: ["PROLEM SOLVER", "QUICK LEARNER", "WORKS WELL UNDER PRESSURE", "TEACHABLE", "TAKES INITIATIVE", "INFECTIOUS ENERGY"], 
         experience: {
             "PEACE CORPS": "TEACHER OF ENGLISH AS A SECOND LANGAUGE TO ECUDORIAN HIGH SCHOOL STUDENTS",
             "OXFORD CANTEEN": "MANAGER OF A TEAM OF 12 WHILE HOLDING ANOTHER JOB AND ATTENDING SCHOOL PRE-MED",
@@ -30,87 +30,94 @@ function ResumeInfo() {
         }
     }]
 
-    const handleVisibility = (event) => {
+  
+    const handleHide = (event) => {
 
-        let clickedValue = event.target.attributes[2].value;
-        // let isMatching = event.target.innerText;
-        let bool = event.target.attributes[1].value;
+        let clickedValue = event.target.attributes[1].value;
         let id = window.document.querySelector("#" + clickedValue)
 
-            if (!isVisible) {
-                setIsVisible(!isVisible);
+            if (clickedValue === "LANGUAGES") {
                 id.style.display = "none";
-            } else {
-                setIsVisible(!isVisible);
+            } else if (clickedValue === "VALUE") {
+                id.style.display = "none";
+            } else if (clickedValue === "EXPERIENCE") {
+                id.style.display = "none";
+            } else if (clickedValue === "LEADERSHIP") {
+                id.style.display = "none";
+            }
+    }
+        
+
+    const handleShow = (event) => {
+
+        let clickedValue = event.target.attributes[1].value;
+        let id = window.document.querySelector("#" + clickedValue)
+
+            if (clickedValue === "LANGUAGES") {
+                id.style.display = "initial";
+            } else if (clickedValue === "VALUE") {
+                id.style.display = "initial";
+            } else if (clickedValue === "EXPERIENCE") {
+                id.style.display = "initial";
+            } else if (clickedValue === "LEADERSHIP") {
                 id.style.display = "initial";
             }
-
-            // if (clickedValue !== isMatching) {
-            //     setIsVisible(!isVisible);
-            // }
-        console.log(bool);    
-        console.log(isVisible);
-        }
+    }
 
     return (
-        <>
-
-        <ResumeBtns isVisible={isVisible} handleVisibility={handleVisibility} />
-
         <div className="populate-here">
 
-        </div>
+        <ResumeBtns handleHide={handleHide} handleShow={handleShow} />
 
             {resumeData.map((data) => (
-                <div style={{display: "none"}} id="LANGUAGES">
-                    <ul id="languages" className="resume-data">
-                        <li className="short-list">{data.languages[0]}</li>
-                        <li className="short-list">{data.languages[1]}</li>
-                        <li className="short-list">{data.languages[2]}</li>
-                        <li className="short-list">{data.languages[3]}</li>
-                        <li className="short-list">{data.languages[4]}</li>
-                    </ul>
-
-                    <ul id="languages2" className="resume-data">
+                <div className="short">
+                    <ul style={{display: "none"}} id="LANGUAGES" className="resume-data">
+                        <li>{data.languages[0]}</li>
+                        <li>{data.languages[1]}</li>
+                        <li>{data.languages[2]}</li>
+                        <li>{data.languages[3]}</li>
+                        <li>{data.languages[4]}</li>
                         <li className="short-list">{data.languages[5]}</li>
-                        <li className="short-list">{data.languages[6]}</li>
-                        <li className="short-list">{data.languages[7]}</li>
-                        <li className="short-list">{data.languages[8]}</li>
-                        <li className="short-list">  </li>
+                        <li>{data.languages[6]}</li>
+                        <li>{data.languages[7]}</li>
+                        <li>{data.languages[8]}</li>
                     </ul>
                 </div>
             ))}
 
             {resumeData.map((data) => (
-                <ul style={{display: "none"}} id="SKILLS" className="resume-data">
-                    <li>{data.skills[0]}</li>
-                    <li>{data.skills[1]}</li>
-                    <li>{data.skills[2]}</li>
-                    <li>{data.skills[3]}</li>
-                    <li>{data.skills[4]}</li>
-                </ul>
+                <div className="short">
+                    <ul style={{display: "none"}} id="VALUE" className="resume-data">
+                        <li>{data.value[0]}</li>
+                        <li>{data.value[1]}</li>
+                        <li>{data.value[2]}</li>
+                        <li className="short-list">{data.value[3]}</li>
+                        <li>{data.value[4]}</li>
+                        <li>{data.value[5]}</li>
+                    </ul>
+                </div>
             ))}
 
              {resumeData.map((data) => (
                  <ul style={{display: "none"}} id="EXPERIENCE" className="resume-data long-list">
-                    <li className="long-list"><strong style={{fontSize: "14px"}}>PEACE CORPS: </strong>{data.experience["PEACE CORPS"]}</li>
-                    <li className="long-list"><strong style={{fontSize: "14px"}}>OXFORD CANTEEN: </strong>{data.experience["OXFORD CANTEEN"]}</li>
-                    <li className="long-list"><strong style={{fontSize: "14px"}}>UNIVERSITY OF MISSISSIPPI: </strong>{data.experience["UNIVERSITY OF MISSISSIPPI"]}</li>
-                    <li className="long-list"><strong style={{fontSize: "14px"}}>U OF MISSISSIPPI: </strong>{data.experience["U OF MISSISSIPPI"]}</li>
+                    <li className="long-list"><strong>PEACE CORPS: </strong>{data.experience["PEACE CORPS"]}</li>
+                    <li className="long-list"><strong>OXFORD CANTEEN: </strong>{data.experience["OXFORD CANTEEN"]}</li>
+                    <li className="long-list"><strong>UNIVERSITY OF MISSISSIPPI: </strong>{data.experience["UNIVERSITY OF MISSISSIPPI"]}</li>
+                    <li className="long-list"><strong>U OF MISSISSIPPI: </strong>{data.experience["U OF MISSISSIPPI"]}</li>
                 </ul>
             ))}
 
            {resumeData.map((data) => (
                  <ul style={{display: "none"}} id="LEADERSHIP" className="resume-data">
-                    <li className="long-list"><strong style={{fontSize: "14px"}}>SPORT CLUB COUNCIL: </strong>{data.leadership["SPORT CLUB COUNCIL"]}</li>
-                    <li className="long-list"><strong style={{fontSize: "14px"}}>AMERICAN MEDICAL WOMEN'S ASSOCIATION: </strong>{data.leadership["AMERICAN MEDICAL WOMEN'S ASSOCIATION"]}</li>
-                    <li className="long-list"><strong style={{fontSize: "14px"}}>STUDENT WELLNESS AMBASSADOR: </strong>{data.leadership["STUDENT WELLNESS AMBASSADOR"]}</li>
-                    <li className="long-list"><strong style={{fontSize: "14px"}}>GLOBAL BRIGADES: </strong>{data.leadership["GLOBAL BRIGADES"]}</li>
-                    <li className="long-list"><strong style={{fontSize: "14px"}}>SAND VOLLEYBALL CLUB: </strong>{data.leadership["SAND VOLLEYBALL CLUB"]}</li>
-                    <li className="long-list"><strong style={{fontSize: "14px"}}>AMERICAN MEDICAL STUDENT ASSOCIATION: </strong>{data.leadership["AMERICAN MEDICAL STUDENT ASSOCIATION"]}</li>
+                    <li className="long-list"><strong>SPORT CLUB COUNCIL: </strong>{data.leadership["SPORT CLUB COUNCIL"]}</li>
+                    <li className="long-list"><strong>AMERICAN MEDICAL WOMEN'S ASSOCIATION: </strong>{data.leadership["AMERICAN MEDICAL WOMEN'S ASSOCIATION"]}</li>
+                    <li className="long-list"><strong>STUDENT WELLNESS AMBASSADOR: </strong>{data.leadership["STUDENT WELLNESS AMBASSADOR"]}</li>
+                    <li className="long-list"><strong>GLOBAL BRIGADES: </strong>{data.leadership["GLOBAL BRIGADES"]}</li>
+                    <li className="long-list"><strong>SAND VOLLEYBALL CLUB: </strong>{data.leadership["SAND VOLLEYBALL CLUB"]}</li>
+                    <li className="long-list"><strong>AMERICAN MEDICAL STUDENT ASSOCIATION: </strong>{data.leadership["AMERICAN MEDICAL STUDENT ASSOCIATION"]}</li>
                 </ul>
             ))}
-        </>
+        </div>
     );
 }
 
