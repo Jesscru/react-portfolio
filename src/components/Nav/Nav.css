@@ -42,3 +42,43 @@ ul,
     width: 50%;
     float: right;
 }
+
+
+
+
+/* media queries */
+
+@media screen and (max-width: 1199px) {
+
+    .nav-bar {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 1090px) {
+
+    .nav-bar {
+       margin-left: 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .nav-bar {
+       margin-left: initial;
+    } 
+}
+
+@media screen and (max-width: 910px) {
+
+    .nav-bar {
+       margin-left: 30px;
+    }
+
+}
+
+

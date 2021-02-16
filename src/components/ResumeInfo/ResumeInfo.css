@@ -1,3 +1,7 @@
+.populate-here {
+    margin-bottom: 40px;
+}
+
 .resume-data {
     list-style-type: none;
     line-height: 3;
@@ -7,6 +11,11 @@
 
 .short-list {
     padding-top: 40px;
+}
+
+.short, 
+.long-list {
+    margin-left: 15px;
 }
 
 #LANGUAGES, 
@@ -27,3 +36,39 @@
 #VALUE {
     line-height: 3;
 }
+
+
+
+/* media queries */
+@media screen and (max-width: 1024px) {
+    .short, 
+    .long-list {
+        margin-left: 65px;
+    }
+    
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .short, 
+    .long-list {
+        margin-left: 65px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    .short {
+        columns: 1;
+    }
+
+    .short-list {
+        padding-top: 0;
+    }
+}
+
+

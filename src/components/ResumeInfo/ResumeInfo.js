@@ -4,12 +4,6 @@ import "./ResumeInfo.css";
 
 
 function ResumeInfo() { 
-    // const [isVisible, setIsVisible] = useState(true);
-
-    // useEffect(() => {
-    //     setIsVisible(true);
-    // }, []);
-
 
     const resumeData = [{
         languages: ["SPANISH", "HTML", "CSS", "JAVASCRIPT", "REACT.JS", "NODE.JS", "MONOGODB", "MYSQL", "EXPRESS"], 

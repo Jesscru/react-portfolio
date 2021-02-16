@@ -11,9 +11,64 @@
     padding: 20px;
     text-align: center;
     margin: 120px 30px 0 0;
+    font-size: 16px;
 }
 
 .cat-btn:hover {
     color: whitesmoke;
     background-color: rgba(193, 193, 193, 0.521);
 }
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width: 1150px) {
+
+    .cat-btn {
+        font-size: 14px;
+        border-radius: 25px 5px 25px 5px;
+        margin: 120px 0 0 30px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .cat-btn {
+        font-size: 12px;
+        padding: 15px;
+        border-radius: 20px 5px 20px 5px;
+        margin: 120px 0 0 30px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .cat-btn {
+        margin: 60px 0 0 50px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .cat-btn {
+        margin: 60px 20px 0 0px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+
+    .cat-btn {
+        margin: 40px 17px 0 0px;
+    }
+    
+}
+
+
+

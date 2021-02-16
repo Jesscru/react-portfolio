@@ -48,3 +48,59 @@
 }
 
 
+
+
+
+/* media queries */
+
+@media screen and (max-width: 720px) {
+
+    .portfolio-image {
+        width: 550px;
+    }
+
+}
+
+
+@media screen and (max-width: 590px) {
+
+    .portfolio-image {
+        width: 450px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .portfolio-image {
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    .portfolio-image {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .portfolio-image {
+        width: 250px;
+    }
+
+}
+
+
+@media screen and (max-width: 280px) {
+
+    .portfolio-image {
+        width: 200px;
+    }
+
+}
+
+
